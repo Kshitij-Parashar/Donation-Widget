@@ -1,0 +1,29 @@
+<div ng-controller="DonateController" class="container widgetContainer">
+    <div class="widgetHeader">
+        ${{remainingValue}} still needed for this project
+    </div>
+    <div class="widgetBody">
+        <div class="progressBarContainer" progressbar="percentage"></div>
+        <div class="text-container">
+            <p><span style="color:orange">Only 3 days left</span> to fund this project</p>
+            <p>
+                Join the <b style="color: #555;font-weight: bolder;">42</b> other donors who have already supported this project.
+                Every dollar helps.
+            </p>
+        </div>
+        <div class="formBox">
+            <div class="formContent">
+                <span style=" position: absolute;margin-top: 11px;margin-left: 5px;color:lightslategrey">$</span>
+                <input style="width:100%;height:100%;padding:12px;color:lightslategrey" type="number" ng-model="value" placeholder="Donation Amount">
+            </div>
+            <div class="formContent">
+                <button style="width:100%;height:100%" class="giveButton"> Give Now</button>
+            </div>
+        </div>
+        <div class="why"><i>Why give ${{value}}?</i></div>
+    </div>
+    <div>
+        <button class="left">Save for later</button>
+        <button class="right">Tell your friends</button>
+    </div>
+</div>

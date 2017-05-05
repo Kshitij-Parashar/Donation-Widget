@@ -1,0 +1,107 @@
+body,html{
+    height:100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.widgetContainer{
+    max-width : 400px;
+    margin-top: 2%;
+}
+
+.widgetHeader{
+    background: grey;
+    color: white;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 11px;
+    font-size: 16px;
+}
+
+.widgetBody {
+    padding: 10px 0;
+    padding-top: 0;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    margin: 10px 0;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.06);
+}
+
+.progressBarContainer {
+    height: 17px;
+    border-radius: 0;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: rgba(211, 211, 211, 0.22);
+    background-color: white;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    margin: 0 !important;
+    height: 100%;
+    border-radius: 0 !important;
+    border: 0 !important;
+    background: orange !important;
+}
+
+.text-container{
+    padding-left : 15px;
+    padding-right: 17px;
+    padding-top:10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.formContent{
+    display: inline-block;
+    float: left;
+    height: 41px;
+    width: calc( 50% - 17px);
+    margin-right: 11px;
+    margin-bottom: 5px;
+    outline:none;
+}
+
+.formBox{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.giveButton{
+    background: rgba(0, 128, 0, 0.54);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    outline:none;
+}
+
+.why{
+    padding-left: 15px;
+    color: rgba(0, 0, 255, 0.54);
+}
+
+.left{
+    display: inline-block;
+    float: left;
+    height: 41px;
+    width: calc( 50% - 5px);
+    margin-right: 11px;
+    margin-bottom: 5px;
+    background: rgba(128, 128, 128, 0.17);
+    color: grey;
+    outline:none;
+    border: 1px solid #999;
+
+}
+.right{
+    display: inline-block;
+    float: left;
+    height: 41px;
+    width: calc( 50% - 6px);
+    margin-bottom: 5px;
+    background: rgba(128, 128, 128, 0.17);
+    color: grey;
+    outline:none;
+    border: 1px solid #999;
+}
